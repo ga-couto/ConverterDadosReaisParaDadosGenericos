@@ -3,7 +3,7 @@ Nesse código, desenvolvi um programa que extrai dados reais de um arquivo e os 
 
 Ex: Dados reais:
 COLABORADOR    |   CIDADE    |   PROFISSÃO ->
-(Gabriel,         Registro,       Tecnico)
+(Gabriel,         Registro,       Técnico)
 (Thomas,          Juquiá,        Estudante) 
 (Laiana,          Cajati,        Farmacêutica)
   
