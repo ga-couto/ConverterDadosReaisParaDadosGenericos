@@ -10,9 +10,9 @@ COLABORADOR    |   CIDADE    |   PROFISSÃO
   
 Ex: Dados genéricos
 COLABORADOR    |    CIDADE    |  PROFISSÃO 
-Colaborador 1      Cidade 2      Profissão 3
-Colaborador 2      Cidade 1      Profissão 1 
-Colaborador 3      Cidade 3      Profissão 2
+Colaborador 1      Cidade 1      Profissão 1
+Colaborador 2      Cidade 2      Profissão 2 
+Colaborador 3      Cidade 3      Profissão 3
   
   
   
