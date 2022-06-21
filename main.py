@@ -5,7 +5,7 @@ nome_arquivo_excel_original = 'atividades'#input('Digite o nome do arquivo origi
 #salvando nome das pastas em variáveis
 caminho_do_arquivo_excel_original = 'pasta_com_arquivo_excel_original'
 planilhas_com_coluna_unica = 'planilhas_com_coluna_unica'
-#Lendo pasta_com_arquivo_excel_original Origem e trazendo para o Python p trabalhar em cima da pasta_com_arquivo_excel_original
+#Lendo pasta_com_arquivo_excel_original Origem e trazendo para o Python p trabalhar em cima dela
 planilha = pd.read_excel(f'{caminho_do_arquivo_excel_original}\\{nome_arquivo_excel_original}.xlsx')
 #planilhaa = pd.read_excel(nome_arquivo_excel_original+'.xlsx')
 #Criando lista com o dado das colunas
@@ -22,8 +22,8 @@ while indice_col < len(colunas):
     coluna_x_da_planilha = planilha[colunas[indice_col]].to_list()
     for dado in coluna_x_da_planilha:
         for indice, valor in enumerate(coluna_x_da_planilha):
-            # if valor is type(int):
-            #     break
+            if valor is type(int):
+                 break
             dado_generico = valor.replace(dado, f'{colunas[indice_col]} {j+1}')
             if valor == dado:
                 coluna_x_da_planilha[indice] = dado_generico
